@@ -17,5 +17,48 @@
     />
     <link rel="stylesheet" href="css/input.css" />
   </head>
-  <body></body>
+  <body
+    class="bg-cream font-montserrat md:flex md:h-screen md:items-center md:justify-center"
+  >
+    <main
+      class="m-5 rounded-md bg-white md:m-0 md:flex md:h-[26rem] md:w-[35rem]"
+    >
+      <section class="md:h-[26rem] md:w-1/2">
+        <img
+          class="max-h-full max-w-full rounded-t-md md:hidden"
+          src="images/image-product-mobile.jpg"
+          alt="Product-img"
+        />
+        <img
+          class="hidden h-full w-full rounded-l-md md:block"
+          src="images/image-product-desktop.jpg"
+          alt="desktop-img"
+        />
+      </section>
+      <section class="p-5 md:w-1/2 md:p-7">
+        <p class="mb-2 text-sm tracking-[.28em] text-darkgreyblue md:mb-3">
+          PERFUME
+        </p>
+        <h1 class="mb-3 font-fraunces text-3xl md:mb-5 md:font-bold">
+          Gabrielle Essence Eua De Parfum
+        </h1>
+        <p class="mb-4 text-sm text-darkgreyblue md:mb-6">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creater of the house of CHANEL.
+        </p>
+        <div class="mb-4 font-fraunces text-3xl font-bold text-darkcyan">
+          $149.99
+          <span class="text-xs text-darkgreyblue line-through">$169.99</span>
+        </div>
+        <button
+          class="flex h-10 w-full items-center justify-center rounded-md bg-darkcyan text-white"
+        >
+          <span class="mr-3"
+            ><img src="images/icon-cart.svg" alt="cart-icon"
+          /></span>
+          Add to Cart
+        </button>
+      </section>
+    </main>
+  </body>
 </html>
