@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ["Montserrat", sans - serif],
-        fraunces: ["Fraunces", serif],
+        montserrat: ['"Montserrat", sans - serif'],
+        fraunces: ['"Fraunces", serif'],
       },
     },
   },
